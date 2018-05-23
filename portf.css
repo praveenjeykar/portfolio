@@ -1,0 +1,61 @@
+.container{
+	max-width: 100%;
+	text-align:center;
+	padding:22px;
+}
+#im{
+	position: relative;
+        top: 70px;
+}
+#img1{
+	text-align:center;
+	margin:10px;
+ 	width:50%;
+}
+.box{
+	background-color:skyblue;
+}
+.second {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	width:100%;
+}
+.s1{
+	background-color:skyblue;
+	margin : 20px;
+        padding : 5px;
+}
+.s2{
+	background-color:skyblue;
+	margin : 20px;
+        padding : 5px;	
+}
+.s3{
+	background-color:skyblue;
+	margin : 20px;
+        padding : 5px;	
+}
+
+.f{
+text-align:center;
+}
+h1{
+	text-align:right;
+}
+h3{
+	text-align:center;
+}
+@media screen and (min-width:400px){
+.second {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	width:100%;
+}
+}
+@media screen and (min-width:400px){
+.container{
+	max-width: 100%;
+	text-align:center;
+	padding:22px;
+}
+}
